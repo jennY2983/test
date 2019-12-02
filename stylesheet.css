@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+
+}
+
+.menu-container {
+    border: 1px solid rgba(0, 18, 66, 1);
+    padding: 20px;
+}
+
+.menu {
+  height: 100px;
+  background-color: #D6E9FE;
+/*  background-color:rgba(0, 148, 198, 1);*/
+}
+
+.menu ul{
+  list-style-type: none;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 18, 66, 1);  /* Add this */
+}
+
+.projects {
+  height: 300px;
+  background-color: white;
+}
+
+.content {
+  height: 500px;
+  background-color: white;
+/*   background-color: rgba(0, 18, 66, 1);*/
+}
+
+.footer {
+  height: 200px;
+   background-color: #D6E9FE;
+}
+
+/* Desktop Styles
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 33.3%;
+  }
+  .header {
+    height: 400px;
+  }
+}
+*/
